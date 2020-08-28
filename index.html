@@ -15,15 +15,94 @@
     <title>Rayan's Page</title>
   </head>
   <body>
-    
+    <!-- this is navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      
+      <div class="navbar-brand">
+        <a href="" class="navbar-item">
+          <img src="img/logo.png" id="den" alt="" height="62">
+        </a>
+      </div>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social">Social</a>
+            </li>
+          </ul>
+            <div class="navside">
+              
+              <button class="btn btn-outline-dark btn-lg my-2 my-sm-0" type="submit">Say Hello</button>
+            </div>
+        </div>
+      </div>
+    </nav>
 
-    <div class="container">
-        <button class="btn btn-primary">whats-up ifty mf</button>
+
+
+
+    <!-- this is banner  -->
+    <div class="banner-container container-fluid">
+        <div class="front">
+            <div class="row">
+                <div class="col-md-9 banner-column">
+                    <h1 class="font-weight-bolder">Designer, Front-end Developer & Student</h1>
+                    <h4>I design and code beautifully simple things, and I love what I do.</h4>
+                    <img class="avatar" src="img/self1.png">
+                </div>
+            </div>
+            <div class="container-bottom sd-5">
+                <img class="is-bottom img-fluid" src="img/foot.png" alt="">
+            </div>
+        </div>
     </div>
 
+<!-- this is my about section  -->
 
-
-
+<div class="overlap">
+  <div class="about-container" id="about">
+    <div class="container-about">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="h-about">Hi, I'm Rayan. Nice to meet you</h2>
+          <p class="p-about py-4 px-4">Recently I have started my journey as a software developer. When I was 12 years old my dad bought a computer for his office work. That was the first time when I encountered a computer. I was memorized by the function and the ability of a computer. Since then I decided to become a Computer engineer. As of this moment I'm an HSC candidate. Because of the corona-virus pendemic. Our HSC examination has been suspended. So I decided to learn programming in this period of time. Recently I've come across an online course. So I enrolled in it and started learning about programming.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- this is education section  -->
+   <div class="about-more-container">
+    <div class="container-card">
+      <div class="card-1" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">Hobbies</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card-2 ml-auto" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">Achievments</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -37,5 +116,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- smooth scroll  -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>
