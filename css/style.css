@@ -200,3 +200,47 @@ body{
     
 }
 
+.footer{
+    background-color: #282f49 ;
+}
+
+.quote{
+    font-size: 20px;
+}
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(167, 167, 167);
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    color:black ;
+}
+
+.circle:hover{
+    background-color: #282f49;
+    color:whitesmoke ;
+    box-shadow: 0 0 5px;
+}
+
+
+.ic{
+    display: inline-block;
+    padding: 20px;
+}
+.fab{
+    display:inline-block;
+    color:#282f49;
+}
+
+.fab:hover{
+    display:inline-block;
+    color:white;
+}
