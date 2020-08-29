@@ -92,6 +92,7 @@ body{
 }
 /* overlap  */
 .overlap{
+    
     display:grid;
     grid-template-rows: 1fr;
     grid-tamplete-areas:"overlap";
@@ -106,6 +107,12 @@ body{
     margin-left: 80px;
     border-radius: 10px 10px;
 }
+
+
+
+
+
+
 .container-card{
     display: flex;
     justify-content: center;
@@ -120,5 +127,76 @@ body{
 .card-2{
     margin-top: 10px;
     margin-right:150px;
+}
+
+
+/* this is education section  */
+#education{
+    margin-top: 85px;
+    
+    padding: 2em;
+    box-shadow:0 0 20px #282f49;
+}
+#ssc{
+    height: 200px;
+    width: 420px;
+}
+
+#hsc{
+    position: absolute;
+    
+    height: 200px;
+    width: 420px;
+    margin-left:400px;
+    
+}
+
+
+/* gallary section  */
+
+/* .img-sec{
+    padding-top: 10px;
+}
+.gl{
+    font-size: 50px;
+    text-align: center;
+} */
+
+
+
+.img-thumbnail{
+    margin: 10px;
+    padding:5px;
+    height:200px;
+    width: 300px;
+}
+
+
+.row-2{
+    margin-top: 20px;
+}
+
+.pgl{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.row-2{
+    display: flex;
+
+    justify-content: center !important;
+    justify-self: center !important;
+    
+}
+.row-1{
+    display: flex;
+
+    justify-content: center !important;
+    justify-self: center !important;
+    
 }
 
