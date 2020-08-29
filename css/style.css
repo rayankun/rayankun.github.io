@@ -69,8 +69,7 @@ body{
 
 .about-container{
     padding: 100px;
-    height: 500px;
-    background-color: #4A5B76;
+    height: 90%;
     background-color: #282f49;
     grid-area: overlap;
 }
@@ -92,7 +91,6 @@ body{
 }
 /* overlap  */
 .overlap{
-    
     display:grid;
     grid-template-rows: 1fr;
     grid-tamplete-areas:"overlap";
@@ -103,8 +101,9 @@ body{
     align-self: center;
     background-color: white;
     margin-top: 350px;
-    margin-right: 80px;
-    margin-left: 80px;
+    justify-self: center;
+    height: 40%;
+    width: 90%;
     border-radius: 10px 10px;
 }
 
@@ -150,6 +149,25 @@ body{
     margin-left:400px;
     
 }
+
+.edu-card{
+    display: inline-block !important ;
+    
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* gallary section  */
@@ -244,3 +262,5 @@ body{
     display:inline-block;
     color:white;
 }
+
+
